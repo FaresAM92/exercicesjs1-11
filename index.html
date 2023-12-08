@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Exercises</title>
+</head>
+<body>
+    <h1>JavaScript Exercises</h1>
+
+    <script>
+        function runExercise(exerciseNumber) {
+            switch (exerciseNumber) {
+                case 1:
+                    exercise1();
+                    break;
+                case 2:
+                    exercise2();
+                    break;
+                case 3:
+                    exercise3();
+                    break;
+                case 4:
+                    exercise4();
+                    break;
+                case 5:
+                    exercise5();
+                    break;
+                case 6:
+                    exercise6();
+                    break;
+                case 7:
+                    exercise7();
+                    break;
+                case 8:
+                    exercise8();
+                    break;
+                case 9:
+                    exercise9();
+                    break;
+                case 10:
+                    exercise10();
+                    break;
+                default:
+                    console.log("Invalid exercise number");
+            }
+        }
+
+        function chooseExercise() {
+            var chosenExercise = prompt("Enter the exercise number you want to run (1-10), or enter '0' to exit:");
+
+            if (chosenExercise === null || chosenExercise === "") {
+                alert("Invalid choice. Please enter a valid exercise number.");
+            } else if (chosenExercise === "0") {
+                alert("Exiting...");
+            } else {
+                runExercise(parseInt(chosenExercise));
+            }
+        }
+
+        chooseExercise();
+    </script>
+</body>
+</html>
