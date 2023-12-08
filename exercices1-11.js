@@ -100,10 +100,7 @@ function exercise8() {
 // Exercise 9
 function exercise9() {
     var film = {
-        title: "Nom du film",
-        duration: 120, // in minutes
-        isAvailable: true
-    };
+        title: "Nom du film" };
     var titreDuFilm = film.title;
     var dureeDuFilm = film.duration;
     console.log("Le titre du film est : " + titreDuFilm);
