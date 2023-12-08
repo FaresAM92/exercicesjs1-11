@@ -118,5 +118,5 @@ function exercise10() {
     }
     var chaine = "you will win";
     var resultatFinal = motsAvecLongueur(chaine);
-    console.log(resultatFinal); // ➞ ["you 3", "will 4", "win 3"]
+    console.log(resultatFinal); 
 }
